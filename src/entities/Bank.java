@@ -57,7 +57,7 @@ public class Bank {
         int contasProessadas = 0;
 
         for(Account c : accounts.values()) {
-            if(c instanceof ContaCorrente) {
+            if(c instanceof ContaPoupanca) {
                 ((ContaPoupanca) c).aplicarRendimento(porcentagem);
                 contasProessadas++;
             }
@@ -74,3 +74,4 @@ public class Bank {
         System.out.println("REMOÇÃO CONCLUÍDA: A conta " + conta.getNumber() + " foi removida com sucesso!");
     }
 }
+
