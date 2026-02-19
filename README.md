@@ -33,6 +33,4 @@ Projeto desenvolvido para praticar Programação Orientada a Objetos (POO) em Ja
 
 ## Autor
 Matheus Flores  
-GitHub: https://github.com/assismatheus-dev
-## Autor
-Matheus Flores
+
